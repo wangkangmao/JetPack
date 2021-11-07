@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tv.yunxi.lifecycle">
+
+    <application>
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".service.LifecycleServiceActivity" />
+        <activity android:name=".activity.LifeCycleActivity" />
+        <activity android:name=".LifecycleMainActivity" />
+    </application>
+
+</manifest>
