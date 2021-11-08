@@ -1,3 +1,4 @@
+include ':navigation'
 include ':lifecycle'
 include ':app'
 rootProject.name = "JetPack"

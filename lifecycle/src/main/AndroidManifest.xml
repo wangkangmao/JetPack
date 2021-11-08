@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tv.yunxi.lifecycle">
 
-    <application>
+    <application
+
+        android:name=".application.MyApplication">
         <service
             android:name=".service.MyService"
             android:enabled="true"
